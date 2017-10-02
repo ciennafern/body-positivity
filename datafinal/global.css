@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
 
 html {
-	background-color: #FFFFFF
+	background-color: #FFFFFF;
 }
 
 main{
@@ -81,7 +81,7 @@ div.pquote{
 
     
     header {
-    	
+    color: orange;
 	padding-left: 40px;
 	padding-right: 40px;
 	font-family: 'Playfair Display', serif;
