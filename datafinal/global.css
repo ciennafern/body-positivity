@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+
+html {
+	background-color: #FFFFFF
+}
+
+main{
+	font-family: 'Playfiar Display', serif; 
+	font-size: 18px; 	
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 700px; 
+	text-align: left; 
+	line-height: 1.5em;
+}
+
+header {
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 80px;
+	text-align: center;
+}
+
+hr {
+	border: 2px solid;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+
+img {
+	padding-right: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	float: left;
+	clear: right;
+}
+
+div.pborder{
+	border-style: solid;
+	border-width: .5px;
+	width:60%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right:auto;
+	margin-left:auto; 
+	text-align: center;
+	line-height: 35px;
+}
+
+div.pquote{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900; 
+	font-style: italic;
+	font-size: 25px;
+	text-align: center; 
+	margin-left: 100px;
+	margin-right: 100px;
+	line-height: 35px;	
+} 
+
+@media only screen and (max-width: 500px) {
+    main{
+	
+	margin: 0 auto;
+	width: 80%;
+	
+}
+
+    
+    header {
+    	
+	padding-left: 40px;
+	padding-right: 40px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 30px;
+	text-align: center;
+}
+  
+  img {
+	
+	width: 100%;
+} 
+
+div.pborder{
+	border-style: solid;
+	border-width: .5px;
+	width:90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right:auto;
+	margin-left:auto; 
+	text-align: center;
+	
+}
+
+div.pquote{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900; 
+	font-style: italic;
+	font-size: 25px;
+	text-align: center; 
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 35px;	
+}  
+}
