@@ -16,6 +16,7 @@ main{
 }
 
 header {
+    color: orange;
 	padding-left: 100px;
 	padding-right: 100px;
 	font-family: 'Playfair Display', serif;
